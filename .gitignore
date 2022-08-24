@@ -363,3 +363,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+enc_temp_folder/
+*.enc

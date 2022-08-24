@@ -838,6 +838,7 @@ if selected_platform in platform_list:
         env.vs_incs = []
         env.vs_srcs = []
 
+    env.Append(CCFLAGS=["/ZI"])
     Export("env")
 
     # Build subdirs, the build order is dependent on link order.
